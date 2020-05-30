@@ -1,0 +1,41 @@
+.sortable {
+  cursor: pointer;
+  color: #000;
+  background: #f9a27b;
+}
+
+table {
+  color: #111;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 12px 0;
+  min-width: 300px;
+  background: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+}
+
+.header-row {
+  background: #ec6022;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  text-align: left;
+  margin: 5px 10px;
+  padding: 15px;
+}
+.sort_td {
+  background: #f1f1f1;
+}
+.warning {
+  background-color: #da8a8a;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
