@@ -1,10 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   font-family: "Helvetica", "Courier";
+  text-align: center;
 }
 
 h3 {
   color: #34495e;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
 }
 .warning {
   background-color: #da8a8a;
